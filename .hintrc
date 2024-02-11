@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 117",
+    "not firefox <= 117",
+    "not and_chr <= 117",
+    "not chrome <= 117",
+    "not edge <= 117",
+    "not opera <= 102",
+    "not samsung <= 22"
+  ],
+  "hints": {
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ],
+    "axe/name-role-value": "off",
+    "button-type": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+/* Start web site */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    /* background-color: rgba(4,10,34,255); */
+    /* background: linear-gradient(120deg,#032e3f,#04364A,#071952); */
+    background: linear-gradient(120deg,#04364A,#132043,#071952,#088395);
+}
+/* Start THe Heading */
+#container{
+    width: 100%;
+    height: 110.5vh;
+    background-color: rgba(4,10,34,255);
+    margin: 0;
+    padding: 0;
+    background-color: rgba(58, 58, 58, 0.4);
+    margin-bottom: 20px;
+}
+.background{
+    width: 100%;
+    z-index: -1;    
+    position: absolute;
+}
+.content{
+    text-align: center;
+    align-items: center;
+    transform: translateY(300px);
+    color: #fff;
+    letter-spacing: 2px;
+}
+.content h1{
+    font-weight: bold;
+    font-size: 50px;
+    /* text-shadow: 2px 3px 3px #000; */
+}
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.links img{
+    width: 220px;
+    height: 100px;
+}
+.links li{
+    padding: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.links a:hover{
+    color: cadetblue;
+    transition: 0.5s;
+}
+.plan{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    transform: translateY(520px);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+
+.plan span{
+    width: 350px;
+    height: 2px;
+    background-color: #fff;
+}
+/* .plan::before{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 3px;
+    left: 23%;
+    top: 20px;
+
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+} */
+.fa-whatsapp,.fa-facebook-f{
+    color: #fff;
+    font-size: 30px;
+}
+
+.contact{
+    transform: translateY(100px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: baseline;
+    padding-left: 100px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    position: relative;
+    transform: translateY(250px);
+}
+
+.icons::before{
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 2px;
+    bottom: 200px;
+    background-color: #fff;
+    transform: rotate(90deg);
+    margin-bottom: 110px;
+    bottom:  210px;
+}
+.fa-facebook-f:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.fa-whatsapp:hover{
+    color: green;
+    transition: 0.5s;
+}
+.text_gallary{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.text_gallary p{
+    text-align: justify;
+    width: 450px;
+}
+.flex_galary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.big_flex img{
+    width: 420px;
+    height: 420px;
+    border-radius: 12px;
+}
+.collection img{
+    width: 300px;
+    height: 205px;
+    border-radius: 12px;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.first,.second{
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.collection img:hover{
+    rotate: 12deg;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
