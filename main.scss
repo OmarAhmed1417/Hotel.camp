@@ -406,7 +406,7 @@ button{
         gap: 20px;
         // transform: translate(5vh,80vh);
         top: 70%;
-        z-index: 100;
+        z-index: 10;
         input{
             color: #fff;
             // text-shadow: 2px 2px 3px blueviolet;
@@ -427,6 +427,7 @@ button{
            
         }
         textarea{
+            text-align: center;
             background-color: transparent;
             outline: none;
             border: 2px solid #ffffff56;
@@ -435,7 +436,7 @@ button{
             padding: 10px;
             border-radius: 10px;
             color: #fff;
-            text-shadow: 2px 2px 3px blueviolet;
+            text-shadow: 2px 2px 3px #111;
 
             &::placeholder{
                 text-align: center;
@@ -544,7 +545,7 @@ button{
     justify-content: center;
     align-items: center;
     color:#fff;
-    z-index: 2;
+    z-index: 20;
     font-size: 22px;
     opacity: 0;
 }
@@ -749,8 +750,8 @@ opacity: 0;
     }
     .links{
         display: flex;
-        left: 275px;
-        width: 100vw;
+        left: 279px;
+        width: 100%;
         gap: 12px;
         img{
             left: 10px;
@@ -1068,8 +1069,8 @@ opacity: 0;
         }
         .links{
             display: flex;
-            transform: translate(-2vw, 0px);
-            width: 100vw;
+            left: 279px;
+            width: 100%;
             gap: 12px;
             img{
                left: 10px;
@@ -1388,8 +1389,8 @@ opacity: 0;
         }
         .links{
             display: flex;
-            left: 264px;
-            width: 100vw;
+            left: 279px;
+            width: 100%;
             gap: 12px;
             img{
                left: 10px;
@@ -1463,7 +1464,7 @@ opacity: 0;
         }
         p {
             text-align: justify;
-            width: 80vw;
+            width: 60vw;
             font-weight: 400;
             font-size: 12px;
         }
@@ -1487,6 +1488,7 @@ opacity: 0;
                 font-size: 25px;
             }
         }
+        left: 95px;
         }
     
         display: flex;
@@ -1600,13 +1602,16 @@ opacity: 0;
     form{
         transform: translate(10vh, 72vh);
         width: 500px;
+        top:0%;
     }
     
     #send {
         #particles-js {
         form{
+        
             transform: translate(0vh,  47vh);
         width: 500px;
+        top: 0;
         input{
             width: 486px;
             &::placeholder{
@@ -1696,7 +1701,7 @@ opacity: 0;
     }
 @media(min-width:1200px)and (max-width:1500px){
 .links{
-    left: 264px;
+    left: 279px;
 }
 #container{
     background: transparent;
@@ -1717,6 +1722,6 @@ opacity: 0;
 
 @media(min-width:1500px){
     .links{
-           left: 264px;
+           left: 279px;
     }
 }

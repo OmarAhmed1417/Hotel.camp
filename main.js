@@ -262,7 +262,7 @@ window.onload=function(){
                 setTimeout(() => {
                     logo.style.opacity=1;
                     logo.style.transition=1+'s';
-                }, 7000);
+                }, 6500);
 
                 setTimeout(() => {
                     loading.classList.replace('width','off');
@@ -277,13 +277,13 @@ window.onload=function(){
 
                     all.style.opacity='1';
 
-                }, 8000);    
+                }, 7500);    
            
                 setTimeout(()=>{
                     loading.style.display='none';
                     body.style.overflowY='scroll';
 
-                },9500)
+                },9000)
     }
 
 

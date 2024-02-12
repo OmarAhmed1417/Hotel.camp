@@ -495,7 +495,7 @@ body ::selection {
   flex-direction: column;
   gap: 20px;
   top: 70%;
-  z-index: 100;
+  z-index: 10;
 }
 #send #particles-js form input {
   color: #fff;
@@ -521,6 +521,7 @@ body ::selection {
   text-shadow: none;
 }
 #send #particles-js form textarea {
+  text-align: center;
   background-color: transparent;
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.337254902);
@@ -529,7 +530,7 @@ body ::selection {
   padding: 10px;
   border-radius: 10px;
   color: #fff;
-  text-shadow: 2px 2px 3px blueviolet;
+  text-shadow: 2px 2px 3px #111;
 }
 #send #particles-js form textarea::-moz-placeholder {
   text-align: center;
@@ -634,7 +635,7 @@ body ::selection {
   justify-content: center;
   align-items: center;
   color: #fff;
-  z-index: 2;
+  z-index: 20;
   font-size: 22px;
   opacity: 0;
 }
@@ -821,8 +822,8 @@ body ::selection {
   }
   .links {
     display: flex;
-    left: 275px;
-    width: 100vw;
+    left: 279px;
+    width: 100%;
     gap: 12px;
   }
   .links img {
@@ -1097,8 +1098,8 @@ body ::selection {
   }
   .links {
     display: flex;
-    transform: translate(-2vw, 0px);
-    width: 100vw;
+    left: 279px;
+    width: 100%;
     gap: 12px;
   }
   .links img {
@@ -1380,8 +1381,8 @@ body ::selection {
   }
   .links {
     display: flex;
-    left: 264px;
-    width: 100vw;
+    left: 279px;
+    width: 100%;
     gap: 12px;
   }
   .links img {
@@ -1449,13 +1450,16 @@ body ::selection {
   }
   .text_gallary p {
     text-align: justify;
-    width: 80vw;
+    width: 60vw;
     font-weight: 400;
     font-size: 12px;
   }
   .flex_galary {
     display: flex;
     flex-direction: row;
+  }
+  .flex_galary .big_flex {
+    left: 95px;
   }
   .flex_galary .big_flex img {
     width: 361px;
@@ -1576,10 +1580,12 @@ body ::selection {
   form {
     transform: translate(10vh, 72vh);
     width: 500px;
+    top: 0%;
   }
   #send #particles-js form {
     transform: translate(0vh, 47vh);
     width: 500px;
+    top: 0;
   }
   #send #particles-js form input {
     width: 486px;
@@ -1662,7 +1668,7 @@ body ::selection {
 }
 @media (min-width: 1200px) and (max-width: 1500px) {
   .links {
-    left: 264px;
+    left: 279px;
   }
   #container {
     background: transparent;
@@ -1680,6 +1686,6 @@ body ::selection {
 }
 @media (min-width: 1500px) {
   .links {
-    left: 264px;
+    left: 279px;
   }
 }/*# sourceMappingURL=main.css.map */
